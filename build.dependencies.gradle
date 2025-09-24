@@ -1,11 +1,16 @@
 repositories {
     mavenCentral()
     google() // Needed for androidx
+
+
+    // pedro + dash
+    maven { url = 'https://maven.pedropathing.com' }
+    maven { url = "https://mymaven.bylazar.com/releases" }
 }
 
 dependencies {
     implementation 'org.firstinspires.ftc:Inspection:11.0.0'
-    implementation 'org.firstinspires.ftc:Blocks:11.0.0'
+    implementation 'org.firstinspir es.ftc:Blocks:11.0.0'
     implementation 'org.firstinspires.ftc:RobotCore:11.0.0'
     implementation 'org.firstinspires.ftc:RobotServer:11.0.0'
     implementation 'org.firstinspires.ftc:OnBotJava:11.0.0'
@@ -13,5 +18,11 @@ dependencies {
     implementation 'org.firstinspires.ftc:FtcCommon:11.0.0'
     implementation 'org.firstinspires.ftc:Vision:11.0.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
+
+    // pedro + dash
+    implementation 'com.pedropathing:ftc:x.y.z'
+    implementation 'com.pedropathing:telemetry:0.0.6'
+
+    implementation 'com.bylazar:fullpanels:1.0.2'
 }
 
