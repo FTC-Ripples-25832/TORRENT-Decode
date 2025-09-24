@@ -3,12 +3,13 @@ package org.firstinspires.ftc.teamcode.opmodes.auto;
 import com.acmerobotics.dashboard.config.Config;
 import com.acmerobotics.roadrunner.Pose2d;
 import com.acmerobotics.roadrunner.Vector2d;
+import com.bylazar.configurables.annotations.Configurable;
 
 /**
  * Shared autonomous path definitions for both robot code and MeepMeep
  * simulation
  */
-@Config
+@Configurable
 public final class AutoPaths {
         // Robot dimensions (in inches)
         public static final double BOT_LENGTH = 15.9;
